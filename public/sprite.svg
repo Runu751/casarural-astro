@@ -1,0 +1,27 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <symbol id="booking" viewBox="0 0 500 500">
+      <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0, 0)" fill-rule="nonzero">
+          <g transform="translate(0, 0)">
+            <!-- Rounded square background -->
+            <rect x="30" y="30" width="440" height="440" rx="80" ry="80" fill="#003580" />
+            
+            <!-- White "B" letter -->
+            <path d="M180,130 h100 c40,0 70,30 70,70 c0,30 -20,55 -45,65 c30,10 55,35 55,70 c0,45 -35,80 -80,80 h-100 v-285 z
+                     M230,180 v55 h30 c15,0 30,-10 30,-25 c0,-15 -10,-30 -30,-30 h-30 z
+                     M230,280 v65 h40 c20,0 35,-15 35,-35 c0,-20 -15,-35 -35,-35 h-40 z" 
+                  fill="white" />
+            
+            <!-- Light blue dot -->
+            <circle cx="415" cy="400" r="30" fill="#00B0FF" />
+          </g>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  
+  <!-- Use the symbol -->
+  <use href="#booking" width="500" height="500" />
+</svg>
