@@ -1,9 +1,1 @@
 @import "tailwindcss";
-
-@font-face {
-    font-family: normal ;
-    src: url("/public/fonts/PerfectPenmanship.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
