@@ -12,15 +12,28 @@ import Layout from '../layouts/Layout.astro';
   </section>
   
   <h1 class="text-3xl font-normal text-center mt-4">Reservar</h1>
-  <div>
-  <a href="https://www.booking.com/hotel/es/casa-de-la-senda.es.html">
-  <img src="/public/images/booking-remove.png" alt="Logo de Booking">
-</a>
-<p>Desde Booking</p>
-<a href="https://www.escapadarural.com/casa-rural/avila/casa-de-la-senda">
-  <img src="/public/images/escapadarural-remove.png" alt="Logo de Escapada Rural">
-</a>
-<p>Desde Escapada Rural</p>
-</div>
+  <div class="flex justify-center items-stretch gap-8 mt-8 mb-8">
+    <div class="flex flex-col items-center">
+      <div class="flex-grow flex items-center justify-center">
+        <a href="https://www.booking.com/hotel/es/casa-de-la-senda.es.html" target="_blank">
+          <img src="/public/images/booking-remove.png" alt="Logo de Booking" width="450" height="450" class="object-contain">
+        </a>
+      </div>
+      <div class="mt-4">
+        <p class="text-center font-medium">Desde Booking</p>
+      </div>
+    </div>
+    
+    <div class="flex flex-col items-center">
+      <div class="flex-grow flex items-center justify-center">
+        <a href="https://www.escapadarural.com/casa-rural/avila/casa-de-la-senda" target="_blank">
+          <img src="/public/images/escapadarural-remove.png" alt="Logo de Escapada Rural" width="450" height="450" class="object-contain">
+        </a>
+      </div>
+      <div class="mt-4">
+        <p class="text-center font-medium">Desde Escapada Rural</p>
+      </div>
+    </div>
+  </div>
  
 </Layout>

@@ -11,17 +11,14 @@ import Layout from '../layouts/Layout.astro';
     <a href="/reservar" class="px-4 py-2 bg-gray-200 text-black rounded hover:bg-gray-400 transition-transform">Reservar</a>
   </section>
   
-  <h1 class="text-3xl font-bold text-center mt-4">Ubicación - Casa de la Senda</h1>
-  <section class="flex flex-col justify-center items-center p-4 bg-gray-100">
-    <h2 class="text-2xl font-bold mb-4">Nuestra Ubicación</h2>
-    <div class="w-full max-w-3xl">
-      <p class="mb-4 text-center">Estamos ubicados en un entorno natural privilegiado, a solo 15 minutos del centro de la ciudad.</p>
-      <div class="aspect-video w-full">
-        <!-- Aquí puedes insertar un mapa de Google Maps o una imagen de la ubicación -->
-        <div class="bg-gray-300 w-full h-full flex justify-center items-center rounded-lg">
-          <p>Mapa de ubicación</p>
-        </div>
+  <h1 class="text-3xl font-bold text-center mt-4">Ubicación</h1>
+  <section class="flex flex-col gap-4 mt-4">
+    <a href="https://www.google.es/maps/@40.1623797,-5.2649309,17z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank">
+      <div class="flex justify-center">
+        <img src="/public/images/maps.png" alt="Imagen google maps" width="1000" height="800" class="rounded-3xl">
       </div>
+    </a>
+    <div class="flex justify-center items-center mt-4">
+      <p class="text-2xl">Nuestra ubicación desde Google Maps</p>
     </div>
   </section>
-</Layout>
